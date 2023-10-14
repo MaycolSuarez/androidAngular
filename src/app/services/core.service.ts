@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class CoreService {
 
-  public urlServicesBD = '/api';
+  public urlServicesBD = 'https://backend-ws-notes.onrender.com/api';
 
   constructor() {
     console.log('Aplication ready ✅');
