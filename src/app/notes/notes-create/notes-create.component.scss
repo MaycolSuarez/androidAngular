@@ -1,0 +1,10 @@
+.image-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .image-container img {
+    max-width: 250px; /* La imagen no superará el ancho del contenedor */
+    height: 250px; /* Mantener la proporción original de la imagen */
+  }

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { NotesListComponent } from './notes-list/notes-list.component';
 import { NotesCreateComponent } from './notes-create/notes-create.component';
 import { NoteDetailComponent } from './note-detail/note-detail.component';
+import { CamaraComponent } from './camara/camara.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: '**',
     redirectTo: 'auth'
+  },
+  {
+    path: 'camara',
+    component: CamaraComponent,
   }
 ];
 

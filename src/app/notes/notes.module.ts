@@ -4,15 +4,18 @@ import { NotesRoutingModule } from './notes-routing.module';
 import { NoteDetailComponent } from './note-detail/note-detail.component';
 import { NotesListComponent } from './notes-list/notes-list.component';
 import { NotesCreateComponent } from './notes-create/notes-create.component';
+import { CamaraComponent } from './camara/camara.component';
 import { TableModule } from 'primeng/table';
 import { ButtonModule } from 'primeng/button';
 import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
     NoteDetailComponent,
     NotesListComponent,
-    NotesCreateComponent
+    NotesCreateComponent,
+    CamaraComponent
   ],
   imports: [
     CommonModule,
@@ -24,7 +27,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   exports: [
     NoteDetailComponent,
     NotesListComponent,
-    NotesCreateComponent
+    NotesCreateComponent,
+    CamaraComponent
   ]
 })
 export class NotesModule { }
